@@ -21,6 +21,9 @@ public class UserInputMain {
         }
 
         //Flips the case of the string
+        String flippedCase = StringUtils.swapCase(userEntry);
+
+        System.out.printf("Flipped Case: %s", flippedCase);
         //Reverses the string
     }// end main
 }// end class
